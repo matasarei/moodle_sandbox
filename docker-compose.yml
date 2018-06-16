@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+
+  mariadb:
+    image: yobasystems/alpine-mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: moodle
+      MYSQL_USER: moodle
+      MYSQL_PASSWORD: q2w3e4r5
+    ports:
+      - 3306:3306
+    volumes:
+      - ./.mariadb:/var/lib/mysql
+
+  moodle:
+    build: docker/moodle
+    restart: always
+    ports:
+      - 8080:80
+      - 8443:443
+    volumes:
+      - ./moodle:/var/www/moodle
+    depends_on:
+      - mariadb
