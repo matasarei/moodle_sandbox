@@ -2,20 +2,21 @@
 Moodle test and development environment.
 
 ## Requirements 
-* docker (recommended version `18.03.1-ce, build 9ee9f40` or later);
-* docker-compose (recommended vertion `1.21.2, build a133471` ro lated).
+* docker (recommended version `18.03.0` or later);
+* docker-compose (recommended vertion `1.13.0` ro lated).
  
 ## Installation
+1. Clone this repo;
 
-1. Clone repo: `git clone -b MOODLE_35_STABLE git@github.com:moodle/moodle.git`;
+2. Clone Moodle repo: `git clone -b MOODLE_35_STABLE git@github.com:moodle/moodle.git`;
 
-2. Build and up containers: `docker-compose up -d --build`;
+3. Build and up containers: `docker-compose up -d --build`;
 
-3. Navigate to http://<moodle_host>:8080/ (replace `<moodle_host>` with real host, like `localhost`);
+4. Navigate to http://<moodle_host>:8080/ (replace `<moodle_host>` with real host, like `localhost`);
 
-4. Select database type: `MariaDB (native/mariadb)`;
+5. Select database type: `MariaDB (native/mariadb)`;
 
-5. Use next values:
+6. Use next values:
 * db host:     `mariadb`
 * db name:     `moodle`
 * db user:     `moodle`
