@@ -10,7 +10,7 @@ Moodle test and development environment.
 
 2. Clone Moodle repo: `git clone -b MOODLE_35_STABLE git@github.com:moodle/moodle.git`
 
-3. Build and up containers: `docker-compose up -d --build`
+3. Build and up containers: `docker-compose up -d`
 
 4. Navigate to http://<moodle_host>:8080/ (replace `<moodle_host>` with real host, like `localhost`)
 
@@ -23,6 +23,9 @@ Moodle test and development environment.
 * db password: `q2w3e4r5`
 
 Use `docker-compose stop \ start` to stop and start sandbox.
+
+## Verions
+This setup supports Moodle 3.0.1 or higher. For older verions (>= 2.6) try `legacy` branch (with PHP5).
 
 ## How to use external directory
 
