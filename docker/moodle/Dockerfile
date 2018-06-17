@@ -4,27 +4,23 @@ MAINTAINER Yevhen Matasar <matasar.ei@gmail.com>
 RUN apk add --update --no-cache \
             git \
             curl \
-            php7 \
-            php7-apache2 \
-            php7-ctype \
-            php7-curl \
-            php7-dom \
-            php7-fileinfo \
-            php7-gd \
-            php7-iconv \
-            php7-intl \
-            php7-json \
-            php7-mbstring \
-            php7-mysqli \
-            php7-openssl \
-            php7-session \
-            php7-simplexml \
-            php7-soap \
-            php7-tokenizer \
-            php7-xml \
-            php7-xmlreader \
-            php7-xmlrpc \
-            php7-zip \
+            php5 \
+            php5-apache2 \
+            php5-ctype \
+            php5-curl \
+            php5-dom \
+            php5-gd \
+            php5-iconv \
+            php5-intl \
+            php5-json \
+            php5-mysqli \
+            php5-openssl \
+            php5-soap \
+            php5-xml \
+            php5-xmlreader \
+            php5-xmlrpc \
+            php5-zip \
+            php5-zlib \
             apache2 \
             apache2-utils
 
