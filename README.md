@@ -3,8 +3,8 @@ Moodle test and development environment.
 
 ## Requirements 
 * docker (recommended version `18.03.0` or later);
-* docker-compose (recommended vertion `1.13.0` ro lated).
- 
+* docker-compose (recommended vertion `1.13.0` ro later).
+
 ## Installation
 1. Clone this repo
    ```
@@ -16,11 +16,11 @@ Moodle test and development environment.
 
 3. Build and up containers: `docker-compose up -d`
 
-4. Navigate to http://<moodle_host>:8080/ (replace `<moodle_host>` with real host, like `localhost`)
+4. Navigate to http://<moodle_host>:8080/ (replace `<moodle_host>` with real hostname or IP, like `localhost` or `127.0.0.1`)
 
 5. Select database type: `MariaDB (native/mariadb)`
 
-6. Use next values:
+6. Use next database configudation:
 * db host:     `mariadb`
 * db name:     `moodle`
 * db user:     `moodle`
@@ -29,7 +29,7 @@ Moodle test and development environment.
 Use `docker-compose stop \ start` to stop or \ and start sandbox.
 
 ## Versions
-Supported Moodle version >= 3.1. For older verions (>= 3.0) try `legacy` branch (with PHP5).
+Supported Moodle version >= 3.1. For older verions (<= 3.0) try `legacy` branch (with PHP5).
 
 ## How to use external directory
 
