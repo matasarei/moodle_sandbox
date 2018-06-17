@@ -25,7 +25,7 @@ Moodle test and development environment.
 Use `docker-compose stop \ start` to stop and start sandbox.
 
 ## Verions
-This setup supports Moodle 3.0.1 or higher. For older verions (>= 2.6) try `legacy` branch (with PHP5).
+Supported Moodle version >= 3.1. For older verions (>= 3.0) try `legacy` branch (with PHP5).
 
 ## How to use external directory
 
