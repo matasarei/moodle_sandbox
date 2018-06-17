@@ -7,6 +7,10 @@ Moodle test and development environment.
  
 ## Installation
 1. Clone this repo
+   ```
+   $ git clone git@github.com:matasarei/moodle_sandbox.git
+   $ cd moodle_sandbox
+   ```
 
 2. Clone Moodle repo: `git clone -b MOODLE_35_STABLE git@github.com:moodle/moodle.git`
 
@@ -22,9 +26,9 @@ Moodle test and development environment.
 * db user:     `moodle`
 * db password: `q2w3e4r5`
 
-Use `docker-compose stop \ start` to stop and start sandbox.
+Use `docker-compose stop \ start` to stop or \ and start sandbox.
 
-## Verions
+## Versions
 Supported Moodle version >= 3.1. For older verions (>= 3.0) try `legacy` branch (with PHP5).
 
 ## How to use external directory
