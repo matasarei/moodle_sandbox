@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repo is obsolete no longer supported, try this instead: https://gist.github.com/matasarei/d9e10ab2572d629311b19fdc41138093
+
 # Moodle sandbox
 Moodle test and development environment.
 
